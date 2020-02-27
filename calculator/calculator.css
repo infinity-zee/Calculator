@@ -1,22 +1,41 @@
-.title{ 
-    margin-bottom: 10px; 
+html body{
+    padding: 0;
+    margin: 0;
+    width: 99.5%;
+    height: 99%;
+}
+
+table{
+    width: 100%;
+    height: 90%;
+}
+
+.title{  
     text-align:center; 
     width: 210px; 
     color:green; 
     border: solid black 2px; 
-    } 
+    height: 10%;
+    width: 100%;
+    font-size: 300%;
+} 
 
-    input[type="button"] 
-    { 
+input[type="button"] 
+{ 
     background-color:green; 
     color: black; 
     border: solid black 2px; 
-    width:100% 
-    } 
+    width:100%;
+    height: 100%;
+    font-size: 40px;
+} 
 
-    input[type="text"] 
-    { 
+input[type="text"] 
+{ 
     background-color:white; 
     border: solid black 2px; 
-    width:100% 
-    } 
+    width:100%;
+    height: 100%;
+    font-size: 300%;
+}
+
